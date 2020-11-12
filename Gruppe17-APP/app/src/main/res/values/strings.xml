@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name" translatable="false">Bølgen</string>
+    <string name="background_image" translatable="false">backgrunnsbilde</string>
+    <string name="title_activity_maps">Kart</string>
+    <string name="start_maps_button" translatable="false">start maps</string>
+
+    <!-- Strings for description of CE marks -->
+    <string name="ce_mark_a">A - Havgående båter, skal tåle en vindstyrke på mer enn 20,8 m/s og en bølgehøyde på mer enn 4m.</string>
+    <string name="ce_mark_b">B - Båter til bruk utenfor kysten, skal tåle en vindstyrke opp til 20,7 m/s og en bølgehøyde opp til 4m.</string>
+    <string name="ce_mark_c">C - Båter nær kysten, skal tåle en vindstyrke opp til 13,8 m/s og en bølgehøyde opp til 2m.</string>
+    <string name="ce_mark_d">D - Båter i beskyttet farvann, tåler mindre enn 7,7 m/s vindstyrke og opp til 0,3m bølgehøyde.</string>
+
+    <!-- Strings for the navigation_drawer -->
+    <string name="navigation_drawer_open">Åpen Navigation Drawer</string>
+    <string name="navigation_drawer_close">Lukk Navigation Drawer</string>
+    <string name="navigation_drawer_settings">Innstillinger</string>
+    <string name="navigation_drawer_measurments">Måleenheter</string>
+    <string name="navigation_drawer_ce_mark">Båttype</string>
+    <string name="navigation_drawer_temperature">Temperatur</string>
+    <string name="navigation_drawer_temperature2">Temperatur</string>
+    <string name="navigation_drawer_wind">Vind</string>
+    <string name="navigation_drawer_wind_speed">Vindstyrke</string>
+    <string name="navigation_drawer_visibility">Synlighet</string>
+    <string name="navigation_drawer_pressure">Trykkmåling</string>
+    <string name="navigation_drawer_tide">Tidevann</string>
+    <string name="navigation_drawer_rain">Regn</string>
+    <string name="navigation_drawer_weather">Nedbør</string>
+    <string name="navigation_drawer_fog">Tåke</string>
+    <string name="navigation_drawer_wave">Bølgehøyde</string>
+    <string name="navigation_drawer_humidity">Fuktighet</string>
+    <string name="navigation_drawer_cloudiness">Skytetthet</string>
+    <string name="navigation_drawer_weatherpreferences">Værpreferanser</string>
+    <string name="navigation_drawer_cancel">Avbryt</string>
+    <string name="navigation_drawer_ok" translatable="false">OK</string>
+    <string name="navigation_drawer_emergency">Nødstilfelle</string>
+    <string name="navigation_drawer_emergency_text">Er du sikkert på at du vil sende posisjon til nødsetralen?</string>
+    <string name="navigation_drawer_coordinates_sent">Koordinater sendt til +47 473 27 997</string>
+    <string name="navigation_drawer_coordinates_not_sent">Har ikke tillatelse til å sende melding!</string>
+    <string name="navigation_drawer_location_permission">Appen fungerer ikke uten tilgang til posisjon</string>
+    <string name="navigation_drawer_change_permission">"Du kan endre tillatelser i innstillinger</string>
+    <string name="navigation_drawer_wind_base" translatable="false">mps</string>
+    <string name="navigation_drawer_visibility_base" translatable="false">mm</string>
+    <string name="navigation_drawer_pressure_base" translatable="false">hPa</string>
+    <string name="navigation_drawer_now">Nå</string>
+    <string name="navigation_drawer_pressure2">Trykk</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="click_on_map">Trykk på kartet for å kunne se værmelding om det valgte stedet</string>
+
+    <!-- Strings for the tab -->
+    <string name="tabs_now">Nå</string>
+    <string name="tabs_time">Time</string>
+    <string name="tabs_day">Uke</string>
+    <string name="tabs_maps">Kart</string>
+
+    <!-- Strings for the marker i map -->
+    <string name="marker_position">Posisjon</string>
+    <string name="marker_latitude" translatable="false">Latitude:</string>
+    <string name="marker_longitude" translatable="false">Longitude:</string>
+    <string name="marker_button_text">Trykk for å se værmelding</string>
+
+    <!-- Strings for the fab in map -->
+    <string name="fab_map_rain">Regn</string>
+    <string name="fab_map_wind">Vind</string>
+    <string name="fab_map_waves">Bølger</string>
+    <string name="map_ready">Kart er klart</string>
+    <string name="humidity_image" translatable="false">humidity image</string>
+    <string name="visibility_image" translatable="false">visibility image</string>
+    <string name="water_image" translatable="false">water image</string>
+    <string name="tide_image" translatable="false">tide image</string>
+    <string name="thermometer_image" translatable="false">thermometer image</string>
+    <string name="fog_image" translatable="false">fog image</string>
+    <string name="waves_image" translatable="false">waves image</string>
+    <string name="wind_image" translatable="false">wind image</string>
+
+    <string name="rain">Regn</string>
+    <string name="wind">Vind</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Innstillinger</string>
+
+    <!-- After General -->
+    <string name="settings_title_general">Generell</string>
+
+    <string name="title_network_calls" translatable="false">Nettverk</string>
+    <string name="summary_selected_network_calls" translatable="false">Lav</string>
+    <string name="key_network_calls" translatable="false">key_network_calls</string>
+
+    <!-- After Notifications -->
+    <string name="title_new_notification_sound">Melding notifikasjon</string>
+    <string name="notifications_new_message" translatable="false">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone" translatable="false">key_notifications_new_message_ringtone</string>
+
+    <string name="title_vibrate">Vibrere</string>
+    <string name="summary_vibrate">Mobilen vibrerer på nytt varsel</string>
+    <string name="key_vibrate" translatable="false">key_vibrate</string>
+
+    <string name="settings_title_notifications">Varslinger</string>
+    <string name="summary_choose_ringtone">"Velg varslingslyd "</string>
+    <string name="settings_title_vibrate">Vibrere</string>
+    <string name="settings_title_ringtone" translatable="false">Ringetone</string>
+    <string name="settings_ringtone_silent">Stille</string>
+    <string name="settings_header_notifications">Varslinger</string>
+    <string name="pref_title_new_message_notifications">Vær varsling</string>
+
+    <!-- After Permissions -->
+    <string name="settings_title_permissions">Tillatelser</string>
+    <string name="title_settings_permissions_position">Posisjon</string>
+    <string name="key_settings_permissions_position" translatable="false">key_settings_permissions_position</string>
+    <string name="summary_position">Av</string>
+    <string name="key_position" translatable="false">key_position</string>
+
+    <string name="title_settings_permissions_sms">SMS</string>
+    <string name="key_settings_permissions_sms" translatable="false">key_title_settings_permissions_sms</string>
+
+    <!-- After About -->
+    <string name="settings_header_about">Om Bølgen</string>
+    <string name="summary_about">Bølgen består av seks studenter ved Universitetet i Oslo, institutt for informatikk. Appen er utviklet som et prosjekt i emnet IN2000 Software Engineering.</string>
+    <string name="app_version" translatable="false">1.0</string>
+    <string name="summary_support">Send oss tilbakemelding slik at vi kan forbedre appen</string>
+    <string name="title_send_feedback">Send oss tilbakmelding</string>
+    <string name="title_version">Versjon</string>
+    <string name="choose_email_client">Velg email klient</string>
+    <string name="key_send_feedback" translatable="false">key_send_feedback</string>
+    <string name="feedback_message">Tilbakemelding til Bølgen app: </string>
+    <string name="title_terms">Vilkår &amp; Betingelser</string>
+
+    <!-- String arrays related to Settings -->
+    <string name="sunset">Automatisk ved solnedgang</string>
+    <string name="theme_off">Av</string>
+    <string name="theme_on">På</string>
+
+    <string-array name="settings_theme_mode_entries">
+        <item>@string/theme_off</item>
+        <item>@string/theme_on</item>
+        <item>@string/sunset</item>
+    </string-array>
+    <string-array name="settings_theme_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="network_low">Lav</string>
+    <string name="network_medium" translatable="false">Medium</string>
+    <string name="network_high">Høy</string>
+
+    <string-array name="settings_network_calls_entries">
+        <item>@string/network_low</item>
+        <item>@string/network_medium</item>
+        <item>@string/network_high</item>
+    </string-array>
+    <string-array name="settings_network_calls_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="fab_map_harbor">Havn</string>
+    <string name="safety_scale">Trygghetsskala</string>
+    <string name="dangerous">Farlig</string>
+    <string name="safe">Trygt</string>
+    <string name="good_visibility">God sikt</string>
+    <string name="bad_visibility">Dårlig sikt</string>
+    <string name="east">Ø</string>
+    <string name="west">V</string>
+    <string name="internet_connection">Vennligst skru på internet ellers vil ikke appen funke</string>
+
+</resources>
